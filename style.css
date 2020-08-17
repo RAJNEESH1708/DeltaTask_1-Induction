@@ -1,0 +1,200 @@
+#bkgrnd {
+  background: url('images/2638315.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.cssProp {
+  visibility: hidden;
+}
+
+#header {
+  margin-top: 0;
+  padding: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 25px;
+  position: relative;
+  font-size: 1rem;
+  color: green;
+  text-align: center;
+}
+
+/**/
+.result {
+  color: green;
+  font-size: 20px;
+  text-align: center;
+}
+
+#field {
+  width: 425px;
+  height: 340px;
+  margin: 0 auto;
+  margin: 25px;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  color: Green;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background: #BDDB93;
+  transition: all 0.01s linear;
+}
+
+.container {
+  display: grid;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  grid-template-columns: repeat(5, 80px);
+  grid-template-rows: repeat(4, 80px);
+  gap: 3px;
+  justify-items: stretch;
+}
+
+#field>button.square {
+  font-size: 2rem;
+  vertical-align: top;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px solid #383838;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background: #656b5c;
+  transition: all 0.01s linear;
+}
+
+#field>button.square:hover {
+  -moz-box-shadow: inset 0 0 20px #C0C0C0;
+  -webkit-box-shadow: inset 0 0 20px #C0C0C0;
+  box-shadow: inset 0 0 20px #C0C0C0;
+}
+
+.grid-item {
+  cursor: pointer;
+  text-align: center;
+  color: green;
+  font-size: 60px;
+  border-radius: 10px;
+  background: black;
+  transition: all 0.01s linear;
+}
+
+.grid-item:hover {
+  -moz-box-shadow: inset 0 0 20px #C0C0C0;
+  -webkit-box-shadow: inset 0 0 20px #C0C0C0;
+  box-shadow: inset 0 0 20px #C0C0C0;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+  list-style: none;
+  color: green;
+  font-size: 2rem;
+}
+
+#startStop:hover {
+  -moz-box-shadow: inset 0 0 20px #C0C0C0;
+  -webkit-box-shadow: inset 0 0 20px #C0C0C0;
+  box-shadow: inset 0 0 20px #C0C0C0;
+}
+
+#newgame {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+
+
+/* timer */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #333;
+  color: #bbb;
+  font-family: Menlo;
+}
+
+.controls {
+  text-align: center;
+}
+
+.button {
+  color: #bbb;
+  font-size: 2rem;
+  margin-top: 50px;
+  /* text-decoration: none; */
+}
+
+.button:first-child {
+  margin-left: 0;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button:hover {
+  color: white;
+}
+
+.center {
+  font-size: 2rem;
+  margin-left: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.midCenter {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.stopwatch {
+  font-size: 50px;
+  margin: 20px;
+  padding: 20px
+}
+
+.results {
+  margin-top: 20px;
+  border-color: lime;
+  list-style: none;
+  text-align: center;
+  bottom: 0;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  color: green;
+}
